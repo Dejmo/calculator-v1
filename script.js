@@ -5,16 +5,16 @@
 
 		if (sum == 'ADD') {
 				let sumAdd = Number(firstNumber) + Number(secondNumber);
-				 console.log(`${firstNumber} + ${secondNumber} =` + ' ' + sumAdd);
+				 alert(`${firstNumber} + ${secondNumber} =` + ' ' + sumAdd);
 		} else if (sum == 'MINUS') {
 				let sumMinus = Number(firstNumber) - Number(secondNumber);
-				 console.log(`${firstNumber} - ${secondNumber} =` + ' ' + sumMinus);
+				 alert(`${firstNumber} - ${secondNumber} =` + ' ' + sumMinus);
 		} else if (sum == 'DIVIDE') {
 				let sumDivide = Number(firstNumber) / Number(secondNumber);
-				 console.log(`${firstNumber} / ${secondNumber} =` + ' ' + sumDivide);
+				 alert(`${firstNumber} / ${secondNumber} =` + ' ' + sumDivide);
 		} else if (sum == 'MULTIPLY') {
 				let sumMultiply = Number(firstNumber) * Number(secondNumber);
-				 console.log(`${firstNumber} * ${secondNumber} =` + ' ' + sumMultiply);
+				 alert(`${firstNumber} * ${secondNumber} =` + ' ' + sumMultiply);
 		} else {
-				 console.log('adadada')
+				 alert('Stupid🤬🤬🤬🤬');
 		}
